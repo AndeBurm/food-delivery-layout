@@ -103,6 +103,34 @@ a {
   }
 }
 
+.header-navbar__item__search-form {
+/*  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,50%);*/
+  background: #EDEEF2;
+  height: 40px;
+  border-radius: 40px;
+  padding: 7px;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  /*
+  width: 80%;
+  */
+}
+
+.search-btn {
+  padding: 0;
+  /*
+  width: 20%;
+  */
+
+}
+
 //Header
 
 .categories-item {
@@ -127,4 +155,12 @@ a {
 
 .Inner-footer, .Inner {
   margin-top: 20px;
+}
+
+//footer
+
+.restaurants-list__item {
+  margin-top: 40px;
+  border: 1px solid grey;
+  border-radius: 18px;
 }
